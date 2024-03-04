@@ -1,0 +1,65 @@
+Inheritance:
+one Object acquires the properties of another 
+Object is inheritance
+
+Multiple inheritance is not supported in java
+
+"is-a" kind relationship
+
+			Employee(Parent/Super/Base)
+			
+			
+			Manager(Child/Sub/Derived)
+			
+"extends"
+
+Code-reusability
+
+Access-modifiers
+
+
+
+Over-riding:
+
+Abstract keyword:
+
+1. If a single method in a class is an abstract
+compulsory the class needs to be an abstract class.
+2. Abstract method does not have any body
+3. Those who are extending abstract class need to 
+override all abstract methods and provide implementation
+4. Abstract class can contain both abstract and 
+	concrete method
+5. Abstract class cannot be Instantiated.
+
+
+Object -  java.lang package - root class
+
+toString()
+equals() - used to check equality of Objects
+hashcode()
+finalize()
+clone()
+wait()
+notify()
+notifAll()
+getClass()
+
+
+LHS==RHS comparison
+
+
+interface:
+
+Abstract methods
+implements
+class implements n...
+Java 8 - default and static methods
+Interface cannot be instantiated
+
+class implements interface
+one interface extends another interface
+one class extends other class
+
+
+

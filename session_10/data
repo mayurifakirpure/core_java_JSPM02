@@ -1,0 +1,25 @@
+
+Java DataBase Connectivity(JDBC):
+
+jdbc api
+
+Java Program	Driver		MySql
+
+4 types of Driver:
+
+4. Thin Driver - Type IV - Fully Written in Java
+
+Steps:
+1. register the Driver
+2. Establish the Connection
+3. Prepare Statement
+4. Get ResultSet
+5. Close the Connection
+
+
+create database jspm_02;  
+use jspm_02;
+create table employee(id integer not null auto_increment,
+ name varchar(30), salary double, primary key(id));
+
+

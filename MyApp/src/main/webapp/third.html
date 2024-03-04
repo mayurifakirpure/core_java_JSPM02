@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<p class="Player1">Player 1</p>
+<p class="Player2">Player 2</p>
+<p class="Player3">Player 3</p>
+<p class="Player4">Player 4</p>
+<p class="Player5">Player 5</p>
+
+<script>
+document.querySelector("p.Player1") 
+.innerHTML = "Mayuri";
+document.querySelector("p.Player2") 
+.innerHTML = Math.random();
+
+const data = Math.random()*6;
+document.querySelector("p.Player3") 
+.innerHTML = data;
+
+const a = Math.floor(data);
+document.querySelector("p.Player4") 
+.innerHTML = a;
+
+const six = a+1;
+document.querySelector("p.Player5") 
+.innerHTML = six;
+</script> 
+</body>
+</html>

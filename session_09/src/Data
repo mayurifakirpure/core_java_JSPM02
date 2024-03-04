@@ -1,0 +1,120 @@
+3 Cursors in java:
+1. Enumeration
+2. Iterator -  Universal Cursor
+3. ListIterator
+
+LinkedList
+Doubly Linked List
+Insertion or deletion 
+
+Stack:
+LIFO
+push()
+pop()
+peek()
+empty()
+int search(Object)
+
+
+
+Set(I) - Duplicates are not allowed
+
+HashSet					SortedSet
+
+LinkedHashSet			NavigableSet
+	
+						TreeSet
+						
+										
+HashSet implementing Set
+HashTable
+Hashcode -  Insertion order is not preserved
+add() - false
+
+
+LinkedHashSet:
+LinkedList + HashTable
+nsertion order is preserved
+1.4v
+
+
+
+SortedSet:(I)
+
+
+Comparable Interface:
+java.lang 
+
+	int compareTo(Object obj)
+	
+	obj1.compareTo(obj2)
+	
+	-ive - Obj1 has to come before obj2
+	+ive - obj1 has to come after obj2
+	0 - equal
+	
+	
+String and Wrapper classes
+
+
+Comparator Interface:
+java.util
+Customized Sorting
+
+int compare(Object obj1,Object obj2)
+
+	-ive - Obj1 has to come before obj2
+	+ive - obj1 has to come after obj2
+	0 - equal
+	
+	
+Queue - (FIFO)
+PriorityQueue
+Some Priority
+
+offer()
+poll()
+remove()
+peek()
+
+
+Map:
+Represent group of Objects as "key-value" pair 
+Both key and value - Objects
+Duplicate keys are not allowed but value can 
+be duplicated
+key-value pair =  Entry
+
+key -Integer
+value - String
+
+100		Mayuri
+200		rahul
+300 	Sayalee
+
+So we cannot apply collection methods over here
+put(Object key,Object value)
+
+interface Map
+{
+	...
+	...
+	interface Entry
+	{
+		Object getKey();
+		Object getValue();
+		Object setValue(Object new);
+	}
+}
+
+HashMap:
+	HashTable
+	Duplicate keys are not allowed but value can be 
+	duplicated
+	Insertion order not preserved - 
+		based on hashCode of key
+
+
+
+
+

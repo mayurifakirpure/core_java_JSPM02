@@ -1,0 +1,16 @@
+MultiThreading:
+Life cycle of thread:
+State:
+
+1. New(Born State)
+2. Runnable
+3. Running
+4. Non-Runnable
+5. Dead State
+
+Thread Group:
+Grouping Threads Together
+Common operation easily
+Every Thread in java belongs to some thread Group
+
+
